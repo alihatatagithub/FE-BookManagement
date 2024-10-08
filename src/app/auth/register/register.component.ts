@@ -35,7 +35,7 @@ export class RegisterComponent {
         console.log(response.AccessToken)
         localStorage.setItem("accessToken", response.AccessToken);
         localStorage.setItem("refreshToken", response.RefreshToken);
-        this.router.navigate(["/book"]);
+        this.router.navigate(["/employee"]);
     });
   }
   login(){
